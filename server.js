@@ -7,7 +7,7 @@ import Cors from "cors";
 const app = express();
 const port = process.env.PORT || 8001;
 const connection_url =
-  "mongodb+srv://inr1137m:Dbpass-123@cluster0.psby4.mongodb.net/datingDB?retryWrites=true&w=majority";
+  "mongodb+srv://@cluster0.psby4.mongodb.net/datingDB?retryWrites=true&w=majority";
 
 //Middleware
 app.use(express.json());
